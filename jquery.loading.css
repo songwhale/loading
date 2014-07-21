@@ -1,0 +1,57 @@
+@keyframes pulse1 {
+  0% {
+    background: #ccc; }
+
+  50% {
+    background: #555; }
+
+  100% {
+    background: #ccc; } }
+
+@keyframes pulse2 {
+  10% {
+    background: #ccc; }
+
+  60% {
+    background: #555; }
+
+  110% {
+    background: #ccc; } }
+
+@keyframes pulse3 {
+  20% {
+    background: #ccc; }
+
+  70% {
+    background: #555; }
+
+  120% {
+    background: #ccc; } }
+
+.ui-loading-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #FFF;
+  z-index: 9999999; }
+  .ui-loading-overlay .ui-loading-dot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: #ccc; }
+    .ui-loading-overlay .ui-loading-dot:nth-child(1) {
+      margin-left: -2em;
+      animation: pulse1 1s linear infinite; }
+    .ui-loading-overlay .ui-loading-dot:nth-child(2) {
+      animation: pulse2 1s linear infinite; }
+    .ui-loading-overlay .ui-loading-dot:nth-child(3) {
+      margin-left: 1em;
+      animation: pulse3 1s linear infinite; }
+
