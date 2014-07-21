@@ -7,7 +7,6 @@
 
   100% {
     background: #ccc; } }
-
 @keyframes pulse2 {
   10% {
     background: #ccc; }
@@ -17,7 +16,6 @@
 
   110% {
     background: #ccc; } }
-
 @keyframes pulse3 {
   20% {
     background: #ccc; }
@@ -27,7 +25,6 @@
 
   120% {
     background: #ccc; } }
-
 .ui-loading-overlay {
   position: absolute;
   height: 100%;
@@ -54,4 +51,3 @@
     .ui-loading-overlay .ui-loading-dot:nth-child(3) {
       margin-left: 1em;
       animation: pulse3 1s linear infinite; }
-
